@@ -32,5 +32,12 @@ public class Restaurant {
         restaurantMenu.removeItem("Ice cream");
 
         System.out.println(restaurantMenu.toString());
+
+        MenuItem item4 = new MenuItem("Burger", 4.25,
+                "Big borgar", "main course", false);
+
+        restaurantMenu.addItem(item4); //attempt to add similar item
+
+        System.out.println('\n'+ restaurantMenu.toString()); //show item was not added
     }
 }
