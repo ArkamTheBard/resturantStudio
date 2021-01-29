@@ -51,6 +51,7 @@ public class Menu {
         for(MenuItem item : this.menu){
             str += item.toString() + '\n';
         }
+        str += "Menu was last updated on: " + lastUpdated.toString();
         return str;
     }
 

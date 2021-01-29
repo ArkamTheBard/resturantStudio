@@ -29,6 +29,8 @@ public class Restaurant {
 
         System.out.println(restaurantMenu.toString());
 
+        System.out.println('\n');
+
         restaurantMenu.removeItem("Ice cream");
 
         System.out.println(restaurantMenu.toString());
